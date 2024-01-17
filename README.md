@@ -4,8 +4,6 @@
 
 ## Table of Contents
 
-- [Project Title](#project-title)
-  - [Table of Contents](#table-of-contents)
   - [Description](#description)
   - [Features](#features)
   - [Getting Started](#getting-started)
