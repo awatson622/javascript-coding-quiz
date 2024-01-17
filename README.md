@@ -10,8 +10,6 @@
   - [Usage](#usage)
   - [Files and Structure](#files-and-structure)
   - [Customization](#customization)
-  - [Credits](#credits)
-  - [License](#license)
 
 ## Description
 
