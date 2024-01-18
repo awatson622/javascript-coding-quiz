@@ -15,7 +15,6 @@
             <label><input type="radio" name="q1" value="a"> Document Object Model</label>
             <label><input type="radio" name="q1" value="b"> Data Object Model</label>
             <label><input type="radio" name="q1" value="c"> Dynamic Object Management</label>
-            <button onclick="nextQuestion()">Next</button>
         </section>
 
         <section class="question" id="question2" style="display: none;">
@@ -24,7 +23,6 @@
             <label><input type="radio" name="q2" value="a"> let</label>
             <label><input type="radio" name="q2" value="b"> var</label>
             <label><input type="radio" name="q2" value="c"> const</label>
-            <button onclick="nextQuestion()">Next</button>
         </section>
 
         <section class="question" id="question3" style="display: none;">
@@ -33,7 +31,6 @@
             <label><input type="radio" name="q3" value="a"> Parsing JSON data</label>
             <label><input type="radio" name="q3" value="b"> Converting a JavaScript object to a JSON string</label>
             <label><input type="radio" name="q3" value="c"> Retrieving data from a JSON file</label>
-            <button onclick="nextQuestion()">Next</button>
         </section>
 
         <section class="question" id="question4" style="display: none;">
@@ -42,7 +39,6 @@
             <label><input type="radio" name="q4" value="a"> To create a new HTML element</label>
             <label><input type="radio" name="q4" value="b"> To manipulate the Document Object Model (DOM)</label>
             <label><input type="radio" name="q4" value="c"> To register an event handler for an HTML element</label>
-            <button onclick="nextQuestion()">Next</button>
         </section>
 
         <section class="question" id="question5" style="display: none;">
@@ -51,13 +47,15 @@
             <label><input type="radio" name="q5" value="a"> '==' performs type coercion, while '===' performs strict equality</label>
             <label><input type="radio" name="q5" value="b"> They are the same and can be used interchangeably</label>
             <label><input type="radio" name="q5" value="c"> '==' performs strict equality, while '===' performs type coercion</label>
-            <button onclick="nextQuestion()">Next</button>
         </section>
 
         <section id="results" style="display: none;">
             <h2>Quiz Results</h2>
+            <ul id="highScoresList"></ul>
             <p id="score"></p>
-        </section>
+            <p id="initialsAndScore"></p>
+        </section>    
+            
     </section>
 
     <script src="assets/script.js" defer></script> 
